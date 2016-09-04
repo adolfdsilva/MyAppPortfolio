@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="audi.com.myappportfolio.ActivityPortfolio">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/tv_welcome"
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/bMovies"
+        style="@style/b_portfolio"
+        android:layout_width="wrap_content"
+        android:text="@string/b_popular_movies" />
+
+    <Button
+        android:id="@+id/bStock"
+        style="@style/b_portfolio"
+        android:layout_height="wrap_content"
+        android:text="@string/b_stock_hawk" />
+
+    <Button
+        android:id="@+id/bBuilt"
+        style="@style/b_portfolio"
+        android:layout_height="wrap_content"
+        android:text="@string/b_built_big" />
+
+    <Button
+        android:id="@+id/bMaterial"
+        style="@style/b_portfolio"
+        android:layout_height="wrap_content"
+        android:text="@string/b_app_material" />
+
+    <Button
+        android:id="@+id/bUbiquitous"
+        style="@style/b_portfolio"
+        android:layout_height="wrap_content"
+        android:text="@string/b_ubiquitous" />
+
+    <Button
+        android:id="@+id/bCapstone"
+        style="@style/b_portfolio"
+        android:layout_height="wrap_content"
+        android:text="@string/b_capstone" />
+
+
+</LinearLayout>
